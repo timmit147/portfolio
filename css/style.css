@@ -1,6 +1,24 @@
+html { 
+   overflow-y: scroll;
+}
+
 body {
     margin: 10vw;
     font-family:  'Open Sans';
+}
+
+/*.background{
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: black;
+    z-index: -1;
+    position: fixed;
+}*/
+
+.bold{
+    font-weight: 900;
+    box-sizing: border-box;
 }
 
 header {
@@ -45,12 +63,35 @@ section div {
 
 section a{
     text-decoration: none;
-    color: black;
     border: 1px solid;
-        padding: 3px 10px;
+    padding: 7px 15px;
     border-radius: 5px;
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Filter*/
+#filter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 3vh;
+}
+
+#filter a{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
 
 /*Transision*/
 #overlay {

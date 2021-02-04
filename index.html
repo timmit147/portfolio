@@ -5,29 +5,32 @@
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+
 <body>
-		<div id="overlay"></div>
 	<header>
 		<h1>Portfolio</h1>
 		<p>Tim Meeuwsen</p>
 	</header>
 
+	<div id="filter"><a id="filter-all" class="bold" onclick="selectall()" >All</a> <p> - </p> <a id="filter-vormgeving" onclick="vormgeving()" >Vormgeving</a> <p> - </p> <a id="filter-progameren" onclick="progameren()" >Progameren</a></div>	
+
 	<main>
 
-		<section>
+		<section class="vormgeving">
 			<img src="img/De-rode-winkel.jpg">
 			<div>
 				<h2>De rode winkel</h2>
-				<p>Website, Frontend opdracht, Wordpress, HTML, CSS, SASS</p>
+				<p>Frontend, Wordpress, HTML, CSS, SASS</p>
 				<a onclick="link('De-rode-winkel.html')" >Lees meer</a>
 			</div>
 		</section>
 
-		<section>
+		<section class="progameren">
 			<img src="img/Hace.jpg">
 			<div>
 				<h2>Hace</h2>
-				<p>Website, Frontend opdracht, Wordpress, HTML, CSS, SASS</p>
+				<p>Frontend, Wordpress, HTML, CSS, SASS</p>
 				<a onclick="link('hace')">Lees meer</a>
 			</div>
 		</section>
@@ -78,9 +81,9 @@
 		</section>
 
 	</main>
-
-
 </body>
+
+<!-- <div id="overlay"></div> -->
 
 <script src="js/script.js"></script>
 
