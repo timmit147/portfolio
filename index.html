@@ -4,6 +4,8 @@
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 
@@ -13,16 +15,16 @@
 		<p>Tim Meeuwsen</p>
 	</header>
 
-	<div id="filter"><a id="filter-all" class="bold" onclick="selectall()" >All</a> <p> - </p> <a id="filter-vormgeving" onclick="vormgeving()" >Vormgeving</a> <p> - </p> <a id="filter-progameren" onclick="progameren()" >Progameren</a></div>	
+	<div id="filter"><a id="filter-all" class="bold" onclick="selectall()" >All</a>  <a id="filter-progameren" onclick="progameren()" >Progameren</a> <a id="filter-vormgeving" onclick="vormgeving()" >Vormgeving</a> </div>	
 
 	<main>
 
-		<section class="vormgeving">
+		<section class="progameren">
 			<img src="img/De-rode-winkel.jpg">
 			<div>
 				<h2>De rode winkel</h2>
-				<p>Frontend, Wordpress, HTML, CSS, SASS</p>
-				<a onclick="link('De-rode-winkel.html')" >Lees meer</a>
+				<p>Website, Wordpress, HTML, CSS, SASS</p>
+				<a href="https://derodewinkel.nl/" target="_blank">Website</a>
 			</div>
 		</section>
 
@@ -30,60 +32,77 @@
 			<img src="img/Hace.jpg">
 			<div>
 				<h2>Hace</h2>
-				<p>Frontend, Wordpress, HTML, CSS, SASS</p>
-				<a onclick="link('hace')">Lees meer</a>
+				<p>Website, Wordpress, HTML, CSS, SASS</p>
+				<a href="https://hace.aero/" target="_blank">Website</a>
 			</div>
 		</section>
 
-		<section>
+		<section class="vormgeving">
 			<img src="img/Travel-app.jpg">
 			<div>
 				<h2>Travel app</h2>
-				<p>Design, XD</p>
-				<a href="">Lees meer</a>
+				<p>Design, XD, Prototype</p>
+				<!-- <a href="">Lees meer</a> -->
 			</div>
 		</section>
 
-		<section>
-			<img src="img/Moduloo.jpg">
+		<section class="progameren">
+			<img class="mobile" src="img/Only-one.jpg">
+			<div>
+				<h2>Only one</h2>
+				<p>App, HTML, CSS, Javascript, Grid, Flexbox</p>
+				<a href="https://timmit147.github.io/blokweb/index.html" target="_blank">Website</a>
+			</div>
+		</section>
+
+		<section class="progameren">
+			<img  src="img/Moduloo.jpg">
 			<div>
 				<h2>Moduloo</h2>
-				<p>Frontend, Wordpress, HTML, CSS, SASS</p>
-				<a href="">Lees meer</a>
+				<p>Website, Wordpress, HTML, CSS, SASS</p>
+				<a href="https://www.moduloo.nl/" target="_blank">Website</a>
 			</div>
 		</section>
 
-		<section>
+		<section class="progameren">
+			<img src="img/Social-elephant.jpg">
+			<div>
+				<h2>Social elephant</h2>
+				<p>Website, Wordpress, HTML, CSS, SASS</p>
+				<a href="https://www.socialelephant.nl/" target="_blank">Website</a>
+			</div>
+		</section>
+
+		<section class="progameren">
 			<img src="img/Straatapp.jpg">
 			<div>
 				<h2>Straatapp</h2>
-				<p>Frontend, Wordpress, HTML, CSS, Mobile first</p>
-				<a href="">Lees meer</a>
+				<p>Website, Wordpress, HTML, CSS, Mobile first</p>
+				<a href="https://straatapp.nl/" target="_blank">Website</a>
 			</div>
 		</section>
 
-		<section>
+		<section class="vormgeving progameren" >
 			<img src="img/B&B-Het-kasteel.jpg">
 			<div>
 				<h2>B&B Het kasteel</h2>
-				<p>Frontend, Wordpress, HTML, CSS, 5 talen</p>
-				<a href="">Lees meer</a>
+				<p>Website, Wordpress, HTML, CSS, 5 talen</p>
+				<!-- <a href="">Lees meer</a> -->
 			</div>
 		</section>
 
-		<section>
+		<section class="vormgeving progameren">
 			<img src="img/Interactive-map.jpg">
 			<div>
 				<h2>Interactieve kaart</h2>
-				<p>Design, Illustrator, SVG, PHP, Javascript</p>
-				<a href="">Lees meer</a>
+				<p>Design, Illustrator, SVG, PHP, Javascript, Database</p>
+				<!-- <a href="">Lees meer</a> -->
 			</div>
 		</section>
 
+
 	</main>
 </body>
-
-<!-- <div id="overlay"></div> -->
 
 <script src="js/script.js"></script>
 
