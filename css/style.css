@@ -7,10 +7,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20vh;
     position: relative;
+    max-width: 1500px;
 }
 
 header{
     margin-bottom: 15vh;
+}
+
+header p {
+    max-width: 500px;
 }
 
 .bold {
@@ -19,9 +24,23 @@ header{
 }
 
 nav{
-    top: 3vh;
+    top: 1.5vh;
     right: 0;
     position: absolute;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.scrollMenu{
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: right;
+    padding: 3vh 10vw  3vh  10vw ;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
 }
 
 main {
@@ -89,15 +108,30 @@ section a:hover, nav a:hover {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
 }
 
-#filter a {
+
+#filter button {
     cursor: pointer;
     border: 1px solid;
     padding: 6px 10px;
     font-weight: 500;
+    background-color: white;
+    font-size: 1em;
 }
+
+#filter button:hover{
+    background-color: black;
+    color: white;
+}
+
+#filter .bold{
+    background-color: black;
+}
+
+
 
 .hide {
     display: none;
@@ -123,7 +157,15 @@ section a:hover, nav a:hover {
     nav{
         position: relative;
         top: 0;
-        margin-bottom: 5vh;
+        margin-bottom: 10vh;
+        gap: 5px;
+        font-size: 0.9em;
+    }
+
+    .scrollMenu{
+        justify-content: left;
+        left: 0;
+        right: none;
     }
 }
 

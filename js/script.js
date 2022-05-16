@@ -48,6 +48,15 @@ document.querySelector("#filter-vormgeving").classList.remove("bold");
 			}
 				   
 	}
-
-
 }
+
+
+
+window.onscroll = function(e) {
+	if(this.scrollY > 200){
+		document.querySelector("nav").classList.add("scrollMenu");
+	}
+	else{
+		document.querySelector("nav").classList.remove("scrollMenu");
+	}
+  }
