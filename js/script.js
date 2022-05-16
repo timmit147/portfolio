@@ -51,19 +51,3 @@ document.querySelector("#filter-vormgeving").classList.remove("bold");
 
 
 }
-
-// Image popup
-
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-
-const nodeList = document.querySelectorAll("section img");
-for (i = 0; i < nodeList.length; i++) {
-  nodeList[i].addEventListener('click', async function(e){
-		this.parentNode.classList.toggle("zoom");
-		await delay(800);
-		if(this.parentNode.classList.contains("zoom") == true){
-			this.scrollIntoView({ block: 'center', behavior: "smooth"  });
-		}
-	});
-}
