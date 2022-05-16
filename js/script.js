@@ -22,7 +22,6 @@ document.querySelector("#filter-all").classList.remove("bold");
 document.querySelector("#filter-progameren").classList.remove("bold");
 
 	for (var i = 0; i < list.length; ++i) {
-		console.log(list[i]);
 			if(list[i].classList.contains("vormgeving")){
 				list[i].classList.remove('hide');
 			}
@@ -51,4 +50,20 @@ document.querySelector("#filter-vormgeving").classList.remove("bold");
 	}
 
 
+}
+
+// Image popup
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+
+const nodeList = document.querySelectorAll("section img");
+for (i = 0; i < nodeList.length; i++) {
+  nodeList[i].addEventListener('click', async function(e){
+		this.parentNode.classList.toggle("zoom");
+		await delay(800);
+		if(this.parentNode.classList.contains("zoom") == true){
+			this.scrollIntoView({ block: 'center', behavior: "smooth"  });
+		}
+	});
 }
