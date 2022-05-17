@@ -1,3 +1,6 @@
+/* /////////////////////////////////////////// */
+/* General code alle pages */
+
 html {
     overflow-y: scroll;
 }
@@ -61,35 +64,7 @@ h2 {
     font-weight: 700;
 }
 
-section {
-    display: grid;
-    gap: 5%;
-    grid-template-columns: 40% 55%;
-}
-
-section img {
-    width: 100%;
-    background-color: black;
-    border: 1px solid;
-}
-
-section video{
-    width: 100%;
-}
-
-.mobile {
-    width: 40%;
-    justify-self: center;
-}
-
-section div {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-section a, nav a {
+nav a {
     text-decoration: none;
     border: 1px solid;
     padding: 6px 10px;
@@ -98,7 +73,7 @@ section a, nav a {
     font-weight: 500;
 }
 
-section a:hover, nav a:hover {
+nav a:hover {
     background-color: black;
     color: white;
 }
@@ -131,29 +106,165 @@ section a:hover, nav a:hover {
     background-color: black;
 }
 
+/* ////////////////////////////////// */
 
+/* index styling */
 
-.hide {
+#index section {
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 40% 55%;
+}
+
+#index section img {
+    width: 100%;
+    background-color: black;
+    border: 1px solid;
+}
+
+#index section video{
+    width: 100%;
+}
+
+#index .mobile {
+    width: 40%;
+    justify-self: center;
+}
+
+#index section div {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#index section a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+
+#index section a:hover {
+    background-color: black;
+    color: white;
+}
+
+#index .hide {
     display: none;
 }
 
+
+/* /////////////////////////// */
+/* wie ben ik styling */
+
+
+#profielFotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#about img{
+    width: 100%;
+}
+
+#opleidingen {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#opleidingen section{
+display: flex;
+gap: 20px;
+}
+
+#opleidingen section img{
+    width: 10%;
+    height: fit-content;
+    align-self: center;     
+}
+
+#opleidingen section h3,#opleidingen section p,#opleidingen section strong{
+    width: 90%;
+}
+
+
+#hobbies {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#hobbies section{
+display: flex;
+gap: 20px;
+}
+
+#hobbies section img{
+    width: 10%;
+    height: fit-content;
+    align-self: center;     
+}
+
+#hobbies section h3{
+    width: 90%;
+}
+
+/* /////////////////////////////////////// */
+/* Contact page styling */
+
+#contact div {
+    display: flex;
+    gap: 10px;
+}
+
+
+#contact-info a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+
+#contact-info a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ///////////////////////////////////// */
+/* Responsive styling */
+
 @media screen and (max-width: 800px) {
 
-    section {
-        grid-template-columns: 100%;
-    }
-
+    /* General styling */
     header {
         margin-bottom: 10vh;
     }
 
-    .mobile{
+    /* Index styling */
+
+    #index section {
+        grid-template-columns: 100%;
+    }
+    
+    #index .mobile{
         justify-self: left;
     }
 
 }
 
 @media screen and (max-width: 900px) {
+
+    /* General styling */
+
     nav{
         position: relative;
         top: 0;
