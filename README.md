@@ -1,7 +1,6 @@
 # portfolio
 
 ## To do
-* hobbies reizen toevoegen
 * Bijlage zoeken stage overeenkomst
 * Stage mail maken
 * Mail sturen naar 5 stage bedrijfen
