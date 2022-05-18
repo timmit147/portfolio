@@ -1,8 +1,6 @@
 # portfolio
 
 ## To do
-* Contact pagina ontwerp verbeteren
-* Contact pagina programereren
 * Andere fotos zoeken voorkeur profiel
 * Jaren aanpassen
 * Teksten iets langer maken en beter (kan vorige website checken)
@@ -13,6 +11,7 @@
 * hobbies reizen toevoegen
 * social elpephant website hoger zetten
 * apps hoger zetten
+* Contact whatsapp werkent krijgen
 
 
 ## Extra
