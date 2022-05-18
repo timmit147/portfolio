@@ -1,17 +1,18 @@
 # portfolio
 
 ## To do
-* Andere fotos zoeken voorkeur profiel
-* Jaren aanpassen
-* Teksten iets langer maken en beter (kan vorige website checken)
-* Teksten laten controleren
-* Wekervaring, stages toevoegen of opdrachtgevers toevoegen
-* opdrachtbeschijving toevoegen portfolio
-* Opdrachtgever portfolio toevoegen
 * hobbies reizen toevoegen
-* social elpephant website hoger zetten
-* apps hoger zetten
-* Contact whatsapp werkent krijgen
+* Bijlage zoeken stage overeenkomst
+* Stage mail maken
+* Mail sturen naar 5 stage bedrijfen
+
+## To do met papa
+* Andere fotos zoeken voorkeur profiel
+* Foto maken met papa aleen profiel
+* Papa vragen of genoeg tekst vooraal portfolio
+* Teksten laten controleren
+* Contact whatsapp checken met papa
+
 
 
 ## Extra
