@@ -1,8 +1,6 @@
 # portfolio
 
 ## To do
-* Bijlage zoeken stage overeenkomst
-* Stage mail maken
 * Mail sturen naar 5 stage bedrijfen
 
 ## To do met papa
