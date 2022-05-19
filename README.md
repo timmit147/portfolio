@@ -18,6 +18,7 @@
 
 ## Idee
 * Tekenen op de achtergrond
+* loading state programeren code en vormgeving paint vegen
 
 
 ## Lastig
