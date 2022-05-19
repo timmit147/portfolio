@@ -4,11 +4,8 @@
 * Mail sturen naar 5 stage bedrijfen
 
 ## To do met papa
-* Andere fotos zoeken voorkeur profiel
-* Foto maken met papa aleen profiel
-* Papa vragen of genoeg tekst vooraal portfolio
-* Teksten laten controleren
-* Contact whatsapp checken met papa
+* Foto maken profiel
+* Contact whatsapp checken met onno
 
 
 
