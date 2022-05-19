@@ -36,6 +36,9 @@ document.querySelector("#filter-progameren").classList.remove("bold");
 function progameren(){
 
 document.querySelector("#filter-progameren").classList.add("bold");
+
+test()
+
 document.querySelector("#filter-all").classList.remove("bold");
 document.querySelector("#filter-vormgeving").classList.remove("bold");
 
@@ -60,3 +63,37 @@ window.onscroll = function(e) {
 		document.querySelector("nav").classList.remove("scrollMenu");
 	}
   }
+
+
+
+function test(){
+	const text = document.querySelector("main section h2").textContent;
+	
+	for (let i = 0; i < text.length; i++) {
+		document.querySelector("main section h2").offsetWidth;
+		task(i,  "*&^%$#@?{!/.><=");		
+	}	
+	function task(i, random) {
+		setTimeout(function() {
+			const str = document.querySelector("main section h2").textContent;
+			const replaced = str.replace(str.charAt(i), random[i]);
+			document.querySelector("main section h2").textContent = replaced;
+			task2(i,  text);
+		}, 120 * i);
+
+	  }
+	  function task2(i, random) {
+		setTimeout(function() {
+			const str = document.querySelector("main section h2").textContent;
+			const replaced = str.replace(str.charAt(i), random[i]);
+			document.querySelector("main section h2").textContent = replaced;
+			setTimeout(function() {
+				setTimeout(function() {
+					task2(i,  text);
+				}, 100);
+			}, 100);
+		}, 100 * i);
+
+	  }
+
+}

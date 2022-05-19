@@ -226,6 +226,7 @@ gap: 20px;
 #hobbies section{
 display: flex;
 gap: 20px;
+align-items: center;
 }
 
 #hobbies section img{
