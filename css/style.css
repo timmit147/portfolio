@@ -141,6 +141,7 @@ nav{
     top: 0;
     right: 0;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 main {
@@ -396,6 +397,21 @@ align-items: center;
         justify-content: left;
         left: 0;
         right: none;
+    }
+    
+    #opleidingen section img,#opdrachtgevers section img,#hobbies section img{
+        width: 20%;
+    }
+
+    #profielFotos{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 30px;
     }
 }
 
