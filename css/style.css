@@ -294,19 +294,19 @@ gap: 20px;
 }
 
 
-/* opdrachtgevers */
-#opdrachtgevers {
+/* Werkervaring */
+#werkervaring {
     display: flex;
     gap: 20px;
     flex-direction: column;
 }
 
-#opdrachtgevers section{
+#werkervaring section{
 display: flex;
 gap: 20px;
 }
 
-#opdrachtgevers section img{
+#werkervaring section img{
     width: 10%;
     height: fit-content;
     align-self: center;     
